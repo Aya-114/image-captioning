@@ -60,28 +60,24 @@ B --> C[Feature Vector]
 C --> D[LSTM / Transformer]
 D --> E[Generated Caption]
 
+🌐 Data Collection (Scraping)
 
-## 🌐 Data Collection (Scraping)
+We built a custom dataset using web scraping techniques:
 
-We built a **custom dataset** using web scraping techniques:
-
-### 📡 Sources:
-- Pexels API  
-- Flickr API  
-
-### 🧹 Preprocessing:
-- Convert text to lowercase  
-- Remove noise & special characters  
-- Filter short/invalid captions  
-- Remove duplicates  
-
-### 🏷️ Caption Formatting:
-- Add `startseq` and `endseq` tokens  
-- Tokenization & sequence encoding  
+📡 Sources:
+Pexels API
+Flickr API
+🧹 Preprocessing:
+Convert text to lowercase
+Remove noise & special characters
+Filter short/invalid captions
+Remove duplicates
+🏷️ Caption Formatting:
+Add startseq and endseq tokens
+Tokenization and sequence encoding
 
 ---
-
-## 🖥️ GUI Interface
+ 🖥️ GUI Interface
 
 🚧 The graphical user interface (GUI) is currently under development.  
 
@@ -92,7 +88,7 @@ Future updates will include:
 
 ---
 
-## 📊 Model Comparison
+📊 Model Comparison
 
 This project compares multiple architectures based on:
 
@@ -104,7 +100,7 @@ This project compares multiple architectures based on:
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 <div align="center">
 
@@ -121,7 +117,7 @@ This project compares multiple architectures based on:
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```bash
 project/
@@ -149,7 +145,7 @@ project/
 
 ---
 
-## ⚡ How to Run
+⚡ How to Run
 
 git clone https://github.com/Aya-114/
 image-captioning.git
@@ -169,4 +165,7 @@ Asmaa Mohamed
 Aya Alaa
 Doha Mohamed
 Sara Mohamed 
-<!-- FOOTER ANIMATION --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=120&section=footer"/> </p> ```
+<!-- FOOTER ANIMATION -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=120&section=footer" />
+</p>
