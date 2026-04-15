@@ -1,4 +1,3 @@
-````markdown
 <!-- HEADER ANIMATION -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=200&section=header&text=Image%20Captioning%20Project&fontSize=40&fontColor=ffffff&animation=fadeIn" />
@@ -53,8 +52,6 @@ A[Image] --> B[CNN Feature Extraction]
 B --> C[Feature Vector]
 C --> D[LSTM / Transformer]
 D --> E[Generated Caption]
-````
-
 ---
 
 ## 🌐 Data Collection (Scraping)
