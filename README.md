@@ -52,7 +52,7 @@ A[Image] --> B[CNN Feature Extraction]
 B --> C[Feature Vector]
 C --> D[LSTM / Transformer]
 D --> E[Generated Caption]
----
+
 
 ## 🌐 Data Collection (Scraping)
 
