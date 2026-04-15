@@ -50,6 +50,7 @@ This project presents an **end-to-end Image Captioning system** that converts im
 
 ---
 
+
 ## ⚙️ Pipeline
 
 ```mermaid
@@ -59,7 +60,6 @@ B --> C[Feature Vector]
 C --> D[LSTM / Transformer]
 D --> E[Generated Caption]
 
----
 
 ## 🌐 Data Collection (Scraping)
 
