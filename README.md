@@ -97,13 +97,9 @@ D --> E[Audio Feedback]
 MobileNet is the lightweight experiment.  
 It is useful for future deployment on mobile devices or real-time assistive systems where speed and model size matter.
 
-```mermaid
-graph LR
-A[Camera or Uploaded Image] --> B[Fast Preprocessing]
-B --> C[MobileNet Lightweight CNN]
-C --> D[Low-Latency Prediction]
-D --> E[Speak Result]
-```
+<p align="center">
+  <img src="assets/mobilenet2.jpeg" alt="MobileNet notebook pipeline" width="850">
+</p>
 
 ---
 
